@@ -132,7 +132,7 @@ john --show --format=crypt ~/hashes.txt
 ```
 
 Тест: `echo '<USER>:<ПРОСТИЙ_ПАРОЛЬ>' | sudo chpasswd` 🔴
-Після — видали `~/hashes.txt` і `~/.john/john.pot`.
+Після  видаліть `~/hashes.txt` і `~/.john/john.pot`.
 
 Відновлення за маскою:
 
