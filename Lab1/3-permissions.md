@@ -68,7 +68,7 @@ cat other_dir/hard.txt
 
 cat other_dir/sym.txt
 # "No such file or directory" — символічне посилання зберігало лише ТЕКСТ старого шляху,
-# а не сам inode, тому воно "битe" після видалення оригіналу
+# а не сам inode, тому воно битe після видалення оригіналу
 ```
 
 Прибрати: `rm -r <DIR> other_dir`.
